@@ -59,7 +59,7 @@ class employeecontroller extends Controller
             }
     }
 
-    public function desroy(int $id){
+    public function (int $id){
         $employees = employee::findOrFail($id);
         $employees->deete();
         return redirect ()->back()->with('status','Employee Deleted');
