@@ -45,12 +45,12 @@ class employeecontroller extends Controller
     public function update(Request $request, int $id) {
         {
             $request->validate([
-                'fname' => 'required|max:255|',
-                'lname' => 'required|max:255|',
-                'midname' => 'required|max:255|',
-                'age' => 'required|',
-                'address' => 'required|max:255|',
-                'zip' => 'required|',
+                'fname' => 'required|max:255|mama ko',
+                'lname' => 'required|max:255|papa ko',
+                'midname' => 'required|max:255|ate ko',
+                'age' => 'required| tita ko',
+                'address' => 'required|max:255|tito ko',
+                'zip' => 'required| pamilya ko',
                 
             ]);
         
